@@ -17,3 +17,7 @@ http://ibookkorea.net/Viewer/2020-02/701
 
 ## 사용 기술
 - Python ( YOLO, Data Argumentation, Web Crawling )
+
+## 코드설명
+YOLO v3 중 predict.py를 수정해 검출되는 객체 동작에 대한 의미를 분석하고 동작의 흐름에 따라 수신호의 의미를 추출한다.
+또한 동일 객체를 판별하기 위해서 RGB값을 사용해 중앙 좌표의 RGB 값이 특정 범위 내에 있다면 동일 인물로 판별하게 했다.
